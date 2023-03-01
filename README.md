@@ -19,5 +19,5 @@ Python on both Windows and the WSL instance.
 172.29.249.42 mysite.local # WSL
 
 2. Copy the server.py file into server.pyw
-3. Create a Windows Task Scheduler task that server.pyw with admin privileges
+3. Create a Windows Task Scheduler task that starts server.pyw with admin privileges on Windows startup
 4. On WSL startup, run `python client.py` inside the WSL instance
