@@ -6,8 +6,6 @@ This is a tool that can be used to automatically update the hosts file on window
 
 The server (server.py) should run on the Windows machine. On WSL startup, you can start client.py inside WSL to send a message to the server containing the WSL IP. When the server receives the message, it updates all the lines in the Windows hosts file that contain '# WSL' by replacing the first word (the IP) (e.g. 172.29.249.42 mysite.local # WSL)
 
-This will not work if there are multiple IPs on the same line.
-
 # Prerequisites
 
 Python on both Windows and the WSL instance.
