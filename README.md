@@ -1,6 +1,8 @@
+IMPORTANT: As of 13.05.2023 the WSL2 IP seems to no longer change on restart so this tool should no longer be needed.
+
 # What is this
 
-This is a tool that can be used to automatically update the hosts file on windows with the WSL2 IP.
+The WSLW instance has an IP that changes on every boot up. This is a tool that can be used to automatically update the hosts file on Windows with the WSL2 IP.
 
 # How does this work?
 
